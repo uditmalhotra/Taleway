@@ -1,0 +1,84 @@
+body{
+    font-family: helvetica;
+    margin: 0;
+    height: auto;
+    background-color: rgb(255,255,255);
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 40vw;
+    height: 15vh;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+    font-size: 2rem;
+    margin: 0;
+}
+#catagory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.5rem;
+}
+#catagoryContent{
+    background-color: rgb(255,255,255);
+    padding:0.5rem;
+    width:30vw;
+    border-style: none;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+textarea{
+    padding:0.5rem;
+    flex-wrap: wrap;
+    border-radius: 0.3rem;
+    background-color:  rgb(242, 242, 242);
+    border: none;
+}
+#allNovels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+#allMagazines{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 35vh;
+}
+.displayImg{
+    width: 100vw;
+    height: 30vh;
+}
+.heading{
+    margin: 0.3rem;
+    font-size: 0.9rem;
+    align-self: center;
+    align-items: center;
+    justify-content: center; 
+}
